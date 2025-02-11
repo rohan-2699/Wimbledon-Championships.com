@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&family=Roboto&family=Roboto+Slab&display=swap');
+html,body{margin: 0;padding: 0; font-size: 16px;}
+*{box-sizing: border-box;}
+
+h1,h2,h3,h4,h5,h6{font-family: 'Lato', sans-serif; font-weight: 800;}
+p{font-family: 'Raleway', sans-serif;}
+li{font-family: 'Raleway', sans-serif;}
+li a{font-family: 'Raleway', sans-serif;}
+a{font-family: 'Belanosima', sans-serif; font-weight: bold;}
+li{list-style-type: none;}
+h3{font-size: 1.75rem!important;}
+
+.container{width:1180px; margin: 0 auto;}
+.container-fluid{width:100%; margin: 0 auto;}
+.container-medium{width: 80%; margin: 0 auto;}
+
+.row{display: flex; flex-wrap: wrap;}
+
+.jc-start{justify-content: flex-start;}
+.jc-center{justify-content: center;}
+.jc-end{justify-content: flex-end;}
+.jc-around{justify-content: space-around;}
+.jc-between{justify-content: space-between;}
+.jc-space-evenly{justify-content: space-evenly;}
+
+.col-12{width: 100%;}
+.col-11{width: 91.66%;}
+.col-10{width: 83.33%;}
+.col-9{width: 75%;}
+.col-8{width: 66.66%;}
+.col-7{width: 58.33%;}
+.col-6{width: 50%;}
+.col-5{width: 41.66%;}
+.col-4{width: 33.33%;}
+.col-3{width: 25%;}
+.col-2{width: 16.66%;}
+.col-1{width: 8.33%;}
+.col{width: auto;}
+
+
+
+/*-------Nav CSS Start------*/
+.nav-link{color: #26762c!important; font-size: 16px!important; font-weight: 600!important; }
+.nav-link:hover{color: rgba(34,34,34,.7)!important;}
+.nav-buttons{margin-right: 30px; margin-left: 30px;}
+.buttons_colors{color: #26762c; font-size: 16px; margin-left: 30px; text-decoration: none; font-weight: 600;}
+.buttons_colors:hover{color: rgba(34,34,34,.7);}
+/*-------Nav CSS End------*/
+
+/*.bg{background: url(../images/Wimbledon-2021-roger-federer.webp)no-repeat; background-size: cover; background-attachment: fixed; opacity: 1;}*/
+
+.sc_text
+{
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #006633;
+    margin-left: 21px
+}
+.navbar-brand {
+    float: left;
+    padding: 20px;
+    font-size: 18px;
+    line-height: 20px;
+    height: 80px!important;
+}
+
+
+.str-img{background:url(../images/2023-Wimbledon-Collection-10.jpg); height: 600px;}
+.str{font-weight: bolder; text-align: center; color:#26762c;}
+.str_h1{color: white; text-decoration: none; padding-top: 20%; font-weight: bolder; margin-left: 5%; letter-spacing: 1px;}
+.str_h3{color: white; text-decoration: none; font-weight: bolder; margin-left: 5%; font-size: 25px!important}
+.buy_now{background: #26762c!important; color: white!important; text-decoration: none!important;}
+.buy_now:hover{background: #4c2178!important; color: white!important;}
+.shp_now{border-radius: 8px; padding: 10px 20px; border: 1px solid white; text-decoration: none; color: white; margin-left: 5%;}
+.shp_now:hover{text-decoration: none; color: white; background-color: #4c2178; border: hidden;}
+.heading-1{text-decoration: none; color: #212529; font-weight: bolder; text-align: center; margin-top: 50px;}
+.card-1{width: 96%; margin: 25px 2%; float: left;}
+.ft-text{text-transform: uppercase;}
+.ft_card{width: 90%; margin: 50px 5px; text-align: start;}
+.sc-text{font-size: 20px; text-decoration: none; color: #423d3d; font-weight: 700;}
+.social{width: 96%; margin-top: 12px; margin-left: -10px;}
+.social a{padding: 12px; text-decoration: none; font-size: 30px;}
+.sc_icon_clr{color: #539759;}
+.sc_icon_clr:hover{color: #26762c;}
+
+@media screen and (max-width:1024px) and (min-width:992px)
+{
+    .buttons_colors{font-size: 13px!important;}
+    .nav-link { font-size: 13px !important;}
+    h3 { font-size: 1.50rem !important; }
+    .focus-section .card .card-footer .card-footer__info { font-size: .8rem!important;}
+}
+
+@media screen and (max-width:991px) and (min-width:360px)
+{
+    .focus-section .card .card-footer .card-footer__info { font-size: .8rem!important;}
+}
