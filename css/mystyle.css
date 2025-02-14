@@ -99,4 +99,28 @@ h3{font-size: 1.75rem!important;}
     .focus-section .card .card-footer .card-footer__info { font-size: .8rem!important;}
     .navbar-toggler{border: none!important;} 
     .navbar-toggler:focus{ box-shadow: none!important;}
+    .str-img {
+        background-position: top center;
+    }
+}
+
+@media screen and (max-width:575px) and (min-width:360px)
+{
+    .respo-cont{margin-top: 100px;}
+    .sc_text {font-size: 28px;}
+    .title-section {font-size: 28px;}
+    .str_h1 {font-size: 28px;}
+    .str_h3 {font-size: 20px !important; }
+    .str-img {
+        height: 400px;
+    } 
+    .str {font-size: 28px;}
+    .heading-1 {font-size: 28px;}
+}
+@media screen and (max-width:470px) and (min-width:360px)
+{
+    .card .image-box {
+        height: 180px!important;
+    }
+    
 }
